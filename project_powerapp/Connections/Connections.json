@@ -1,0 +1,164 @@
+{
+  "062840d0-a561-4ad2-8ef4-18daa92f07ee": {
+    "connectionParameters": {
+      "workFlowCallbackUri": "https://prod-156.westus.logic.azure.com:443/workflows/15ef390683844c45ae09d964e8006c31/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=NvYF-r7Q67LUEVspHf3kHVogp2TpAw94DCNESnNutt4",
+      "workflowEndpoint": "/subscriptions/2c8cfba1-d125-4f31-a479-50156c7ed09f/resourceGroups/db05facac82a4b9db9c50f64b6755421-d3eafc7332d6429eaecd9e998a45ee90/providers/Microsoft.Logic/workflows/d8d0bf80-b6e4-4389-af0c-d76e85dadb1c",
+      "workflowName": "d8d0bf80-b6e4-4389-af0c-d76e85dadb1c",
+      "workflowPath": "/subscriptions/2c8cfba1-d125-4f31-a479-50156c7ed09f/resourceGroups/db05facac82a4b9db9c50f64b6755421-d3eafc7332d6429eaecd9e998a45ee90/providers/Microsoft.Logic/workflows/d8d0bf80-b6e4-4389-af0c-d76e85dadb1c"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Logic flows",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1534/1.0.1534.2605/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "19fdf56b-b5e9-4e35-a8da-c1dc0ecae405": {
+          "value": "shared_onedriveforbusiness"
+        },
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "d8d0bf80-b6e4-4389-af0c-d76e85dadb1c"
+        }
+      },
+      "parameterHintsV2": {
+        "shared_onedriveforbusiness": {
+          "value": "19fdf56b-b5e9-4e35-a8da-c1dc0ecae405"
+        },
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "d8d0bf80-b6e4-4389-af0c-d76e85dadb1c"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "ExporttoExcel"
+    ],
+    "dependencies": {
+      "shared_onedriveforbusiness": "19fdf56b-b5e9-4e35-a8da-c1dc0ecae405"
+    },
+    "dependents": [],
+    "id": "062840d0-a561-4ad2-8ef4-18daa92f07ee"
+  },
+  "19fdf56b-b5e9-4e35-a8da-c1dc0ecae405": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "OneDrive for Business",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1546/1.0.1546.2665/onedriveforbusiness/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_onedriveforbusiness",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [],
+    "dependencies": {},
+    "dependents": [
+      "062840d0-a561-4ad2-8ef4-18daa92f07ee"
+    ],
+    "id": "19fdf56b-b5e9-4e35-a8da-c1dc0ecae405"
+  },
+  "65539492-d884-4162-8a11-1bfe57d5cfba": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Office 365 Users",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1611/1.0.1611.3104/office365users/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365users",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [
+      "Office365Users"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "65539492-d884-4162-8a11-1bfe57d5cfba"
+  },
+  "7230e860-5993-4dde-ba0a-5d50dc46adf8": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Office 365 Outlook",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1613/1.0.1613.3125/office365/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [
+      "Office365Outlook"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "7230e860-5993-4dde-ba0a-5d50dc46adf8"
+  },
+  "a3c1d76f-dab3-447e-ab2e-8acad7784187": {
+    "connectionParameters": {
+      "workFlowCallbackUri": "https://prod-152.westus.logic.azure.com:443/workflows/09c32018d22548b5b03c147f3432237a/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=CkDACvIQyKjCiyJVW9ZkJH3O_MP0vRlU28NJn7ElhGA",
+      "workflowEndpoint": "/subscriptions/2c8cfba1-d125-4f31-a479-50156c7ed09f/resourceGroups/db05facac82a4b9db9c50f64b6755421-d3eafc7332d6429eaecd9e998a45ee90/providers/Microsoft.Logic/workflows/6f5163ba-4d2a-4b8d-aa71-2e8e01434c2b",
+      "workflowName": "6f5163ba-4d2a-4b8d-aa71-2e8e01434c2b",
+      "workflowPath": "/subscriptions/2c8cfba1-d125-4f31-a479-50156c7ed09f/resourceGroups/db05facac82a4b9db9c50f64b6755421-d3eafc7332d6429eaecd9e998a45ee90/providers/Microsoft.Logic/workflows/6f5163ba-4d2a-4b8d-aa71-2e8e01434c2b"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Logic flows",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1534/1.0.1534.2605/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "6f5163ba-4d2a-4b8d-aa71-2e8e01434c2b"
+        }
+      },
+      "parameterHintsV2": {
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "6f5163ba-4d2a-4b8d-aa71-2e8e01434c2b"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "ExportasExcel"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "a3c1d76f-dab3-447e-ab2e-8acad7784187"
+  },
+  "f1e5d73c-65d9-44d2-bc34-afd91ce4fd7b": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/juanq/gateway/greyhound/3000.150.11/1.0.1613.3116/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://uhgazure-my.sharepoint.com/personal/monisha_1_optum_com": {
+        "dataSources": {
+          "Employee List": {
+            "tableName": "50cdeccb-8c2c-4049-91a3-7dfd98c19f0e"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Employee List"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "f1e5d73c-65d9-44d2-bc34-afd91ce4fd7b"
+  }
+}
