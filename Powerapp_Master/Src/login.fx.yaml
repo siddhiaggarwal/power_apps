@@ -95,9 +95,9 @@ login As screen:
         FontWeight: =FontWeight.Bold
         Height: =70
         Size: =21
-        Text: ="Login Page"
+        Text: ="Login "
         Width: =560
-        X: =446
+        X: =466
         Y: =5
         ZIndex: =6
 

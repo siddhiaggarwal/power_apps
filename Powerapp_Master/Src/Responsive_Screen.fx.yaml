@@ -390,8 +390,8 @@ Responsive_Screen As screen:
         SelectionFill: =RGBA(211, 66, 9, 1)
         Size: =15
         Width: =120
-        X: =978
-        Y: =99
+        X: =866
+        Y: =95
         ZIndex: =10
 
     Label3 As label:
@@ -413,36 +413,16 @@ Responsive_Screen As screen:
         DisabledFill: =RGBA(244, 244, 244, 1)
         Fill: =RGBA(211, 66, 9, 1)
         FontWeight: =FontWeight.Semibold
-        Height: =46
+        Height: =56
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(211, 66, 9, 1), -20%)
         OnSelect: |-
             =Set(varFileItem,ExporttoExcel.Run(JSON('Employee List'.FirstName,JSONFormat.IgnoreBinaryData)).filelink);
             Launch(varFileItem);
         Text: ="Export to Excel"
-        X: =69
-        Y: =560
+        X: =242
+        Y: =82
         ZIndex: =12
-
-    TextInput1 As text:
-        BorderColor: =RGBA(221, 79, 14, 1)
-        BorderThickness: =2
-        Color: =RGBA(0, 0, 0, 1)
-        Default: =""
-        DisabledBorderColor: =RGBA(166, 166, 166, 1)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        FocusedBorderThickness: =4
-        Height: =39
-        HintText: ="Search"
-        HoverBorderColor: =RGBA(131, 24, 75, 1)
-        HoverColor: =RGBA(0, 0, 0, 1)
-        HoverFill: =RGBA(255, 211, 205, 1)
-        Size: =15
-        Width: =416
-        X: =16
-        Y: =99
-        ZIndex: =13
 
     Button2 As button:
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
@@ -450,15 +430,15 @@ Responsive_Screen As screen:
         DisabledFill: =RGBA(244, 244, 244, 1)
         Fill: =RGBA(211, 66, 9, 1)
         FontWeight: =FontWeight.Semibold
-        Height: =50
+        Height: =56
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(211, 66, 9, 1), -20%)
         OnSelect: =Navigate(Send_email)
         Text: ="Send Email"
         Visible: =adminUser
         Width: =143
-        X: =911
-        Y: =556
+        X: =441
+        Y: =82
         ZIndex: =14
 
     Label1_1 As label:
@@ -471,4 +451,21 @@ Responsive_Screen As screen:
         Text: ="OPTUM"
         Width: =179
         ZIndex: =15
+
+    Button8 As button:
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(211, 66, 9, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =56
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(211, 66, 9, 1), -20%)
+        OnSelect: =Navigate(EmployeeDetails)
+        Text: ="previous screen"
+        Visible: =adminUser
+        Width: =167
+        X: =36
+        Y: =82
+        ZIndex: =16
 
