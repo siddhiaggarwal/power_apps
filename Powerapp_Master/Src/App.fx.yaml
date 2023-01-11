@@ -1,3 +1,7 @@
 App As appinfo:
     BackEnabled: =false
+    OnStart: |-
+        =Set(adminUser, !IsBlank(LookUp(UserAppPermission, User.Email=Office365Users.MyProfile().Mail)));
+        Set(mgrUser, !IsBlank(LookUp(ManagerRole, Manager.Email=Office365Users.MyProfile().Mail)));
+        Set(techLeadUser, !IsBlank(LookUp(TechLeadRole, TechLead.Email=Office365Users.MyProfile().Mail)));
 

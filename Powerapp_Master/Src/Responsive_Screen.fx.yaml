@@ -455,6 +455,7 @@ Responsive_Screen As screen:
         HoverFill: =ColorFade(RGBA(211, 66, 9, 1), -20%)
         OnSelect: =Navigate(Send_email)
         Text: ="Send Email"
+        Visible: =adminUser
         Width: =143
         X: =911
         Y: =556

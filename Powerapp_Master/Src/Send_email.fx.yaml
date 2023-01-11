@@ -370,6 +370,7 @@
         PaddingBottom: =15
         PaddingTop: =15
         Tooltip: ="Cancel"
+        Visible: =adminUser
         Width: =81
         X: =971
         ZIndex: =17

@@ -152,10 +152,26 @@
             "tableName": "50cdeccb-8c2c-4049-91a3-7dfd98c19f0e"
           }
         }
+      },
+      "https://uhgazure-my.sharepoint.com/personal/siddhi_aggarwal_optum_com": {
+        "dataSources": {
+          "ManagerRole": {
+            "tableName": "7f765f92-1662-4c85-9254-e11ba86852c1"
+          },
+          "TechLeadRole": {
+            "tableName": "349415ee-4fa5-4c9a-a377-95e83c9ff9a9"
+          },
+          "UserAppPermission": {
+            "tableName": "c2543878-8532-4020-a8a6-b4ab564bf73f"
+          }
+        }
       }
     },
     "dataSources": [
-      "Employee List"
+      "Employee List",
+      "UserAppPermission",
+      "ManagerRole",
+      "TechLeadRole"
     ],
     "dependencies": {},
     "dependents": [],

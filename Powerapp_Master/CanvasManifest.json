@@ -113,6 +113,7 @@
     "UserLocale": "en-US"
   },
   "ScreenOrder": [
+    "login",
     "EmployeeDetails",
     "Responsive_Screen",
     "Send_email"

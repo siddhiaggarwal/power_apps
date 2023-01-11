@@ -1,0 +1,103 @@
+login As screen:
+    Fill: =RGBA(251, 188, 159, 1)
+    LoadingSpinnerColor: =RGBA(211, 66, 9, 1)
+
+    Button3 As button:
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(221, 79, 14, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =70
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(211, 66, 9, 1), -20%)
+        OnSelect: =Navigate(EmployeeDetails)
+        RadiusBottomLeft: =19
+        RadiusBottomRight: =19
+        RadiusTopLeft: =19
+        RadiusTopRight: =19
+        Size: =18
+        Text: ="Log in as Admin"
+        Visible: =adminUser
+        Width: =280
+        X: =408
+        Y: =298
+        ZIndex: =1
+
+    Button5 As button:
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(221, 79, 14, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =70
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(211, 66, 9, 1), -20%)
+        OnSelect: =Navigate(Responsive_Screen)
+        RadiusBottomLeft: =19
+        RadiusBottomRight: =19
+        RadiusTopLeft: =19
+        RadiusTopRight: =19
+        Size: =18
+        Text: ="Log in as Tech Lead"
+        Visible: =techLeadUser || adminUser
+        Width: =280
+        X: =408
+        Y: =392
+        ZIndex: =2
+
+    Button6 As button:
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(221, 79, 14, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =70
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(211, 66, 9, 1), -20%)
+        OnSelect: =Navigate(Send_email)
+        RadiusBottomLeft: =19
+        RadiusBottomRight: =19
+        RadiusTopLeft: =19
+        RadiusTopRight: =19
+        Size: =18
+        Text: ="Log in as Manager"
+        Visible: =mgrUser || adminUser
+        Width: =280
+        X: =408
+        Y: =199
+        ZIndex: =3
+
+    Rectangle4 As rectangle:
+        BorderColor: =RGBA(131, 24, 75, 1)
+        Fill: =RGBA(221, 79, 14, 1)
+        Height: =81
+        Width: =1135
+        ZIndex: =4
+
+    Label5 As label:
+        BorderColor: =RGBA(131, 24, 75, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =25
+        Text: ="OPTUM"
+        Width: =258
+        X: =12
+        Y: =5
+        ZIndex: =5
+
+    Label6 As label:
+        BorderColor: =RGBA(131, 24, 75, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =21
+        Text: ="Login Page"
+        Width: =560
+        X: =446
+        Y: =5
+        ZIndex: =6
+
