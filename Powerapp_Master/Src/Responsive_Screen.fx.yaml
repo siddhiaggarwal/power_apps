@@ -449,7 +449,8 @@ Responsive_Screen As screen:
         Height: =39
         Size: =25
         Text: ="OPTUM"
-        Width: =179
+        X: =986
+        Y: =601
         ZIndex: =15
 
     Button8 As button:
@@ -468,4 +469,14 @@ Responsive_Screen As screen:
         X: =36
         Y: =82
         ZIndex: =16
+
+    Arrow1_1 As arrow.backArrow:
+        BorderColor: =RGBA(131, 24, 75, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        Fill: =RGBA(221, 79, 14, 1)
+        Height: =61
+        OnSelect: =Navigate(login)
+        Width: =70
+        Y: =579
+        ZIndex: =17
 

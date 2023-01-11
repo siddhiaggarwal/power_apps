@@ -31,7 +31,7 @@
         Text: ="Email"
         Width: =423
         Wrap: =false
-        X: =319
+        X: =344
         Y: =16
         ZIndex: =3
 
@@ -310,7 +310,7 @@
         DisabledFill: =RGBA(244, 244, 244, 1)
         DropTargetBorderColor: =RGBA(221, 79, 14, 1)
         FocusedBorderThickness: =4
-        Height: =205
+        Height: =221
         HoverColor: =RGBA(0, 0, 0, 1)
         HoverFill: =RGBA(255, 211, 205, 1)
         IsInDataCard: =true
@@ -330,18 +330,6 @@
         X: =680
         Y: =400
         ZIndex: =14
-
-    Label1_2 As label:
-        BorderColor: =RGBA(246, 88, 16, 1)
-        Color: =RGBA(255, 255, 255, 1)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        FontWeight: =FontWeight.Bold
-        Height: =41
-        Size: =25
-        Text: ="OPTUM"
-        Width: =179
-        Y: =8
-        ZIndex: =15
 
     LblEmailMessage1_1 As label:
         Color: =RGBA(0, 0, 0, 1)
@@ -446,4 +434,13 @@
         X: =680
         Y: =118
         ZIndex: =21
+
+    Arrow1 As arrow.backArrow:
+        BorderColor: =RGBA(131, 24, 75, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =65
+        OnSelect: =Navigate(login)
+        Width: =60
+        ZIndex: =23
 
